@@ -58,12 +58,11 @@ body {
 .color {
     font-size: 25px;
     font-weight: 600;
-    margin: 10px;
+    margin: 8px;
     background: #ccc;
     padding: 45px;
     border-radius: 10px;
     cursor: pointer;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 footer {
@@ -90,4 +89,10 @@ footer .end {
 .end a:hover {
     color: #0000ff;
     text-decoration: underline;
+}
+
+@media (max-width:840px) {
+    .color {
+        font-size: 20px;
+    }
 }

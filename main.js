@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
 const spinBtn = document.querySelector('.spin');
 
-for(let i = 0; i < 35; i++){
+for(let i = 0; i < 30; i++){
     const color = document.createElement("div");
     color.classList.add('color');
     color.textContent = "Click Spin";
